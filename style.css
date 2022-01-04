@@ -43,7 +43,7 @@ ul li a{
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
-
+    margin-bottom: 110px;
 }
 .heroContain{
     width: 50%;
@@ -69,7 +69,88 @@ ul li a{
 }
 .heroImage img{
     width: 50%;
+
     
 }
     
 /*---------------------company---------------------------*/
+.myCompany{
+    background-color: chocolate;
+    width: 1600px;
+    margin: 0 auto;
+    padding: 30px 0px;
+    margin-bottom: 110px;
+    
+}
+.compContan{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.compContan h1{
+    font-size: 40px;
+    padding: 0px;
+    margin: 0px;
+}
+.compContan hr{
+    width: 700px;
+    border: 1px solid black;
+    
+}
+.comImg{
+    text-align: center;
+}
+.comImg a{
+    text-decoration: none;
+    padding: 0px 20px;
+}
+/*------------live demo-----------*/
+.liveDemo{
+    width: 1600px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.liveDemo h1{
+    font-size:40px ;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+.liveDemo hr{
+    width: 700px;
+    border: 1px solid black;
+}
+/*----------damoCard------------*/
+.damoCard{
+    display: flex;
+    width: 1600px;
+    margin: 0 auto;
+    margin-bottom: 110px;
+    justify-content: space-between;
+}
+.card1{
+    height: 600px;
+    width: 300px;
+    box-shadow: 3px 3px 3px 3px gray; 
+    text-align: center;
+    position: relative;
+}
+.card1 h1{
+    color: chocolate;
+    text-align: center;
+    position: relative;
+}
+.card1 img{
+    width: 100%;
+    height: 40%;
+    margin-bottom: 20px;
+}
+.card1 p{
+    text-align:justify;
+    padding: 5px;  
+}
+.demobtn{
+    background-color: chocolate; 
+    padding: 7px 30px;
+    border: none;
+    border-radius: 2px;
+}
