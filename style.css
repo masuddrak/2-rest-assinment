@@ -128,7 +128,7 @@ ul li a{
     justify-content: space-between;
 }
 .card1{
-    height: 600px;
+    height: 500px;
     width: 300px;
     box-shadow: 3px 3px 3px 3px gray; 
     text-align: center;
@@ -153,4 +153,39 @@ ul li a{
     padding: 7px 30px;
     border: none;
     border-radius: 2px;
+}
+/*-----------testimolias----------*/
+.testimolias{
+    display: flex;
+    width: 1600px;
+    margin: 0 auto;
+    margin-bottom: 110px;
+    justify-content: space-between;
+    
+}
+.testmonialCard{
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    height: 150px;
+    border: 1px solid chocolate;
+    align-items: center;
+    box-shadow: 2px 2px 2px  chocolate;
+}
+.namImg{
+width: 40%;
+margin-left: 10px;
+}
+.testImg img{
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+}
+.testNam span{
+    color: black;
+}
+.testDescipt{
+    width: 60%;
+    text-align: justify;
+    margin-right: 10px;
 }
